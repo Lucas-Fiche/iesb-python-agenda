@@ -3,21 +3,21 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-[cite_start]Projeto de uma agenda telefônica de console, desenvolvido como parte de uma atividade avaliativa da faculdade[cite: 2, 3]. O foco principal do projeto é aplicar conceitos fundamentais de Python, como a manipulação de dicionários, funções e persistência de dados em arquivos.
+[cite_start]Projeto de uma agenda telefônica de console, desenvolvido como parte de uma atividade individual da faculdade[cite: 2, 3]. O foco principal do projeto é aplicar conceitos fundamentais de Python, como a manipulação de dicionários, funções e persistência de dados em arquivos.
 
 ## 🚀 Sobre o Projeto
 
-A Agenda Telefônica é uma aplicação de terminal (console) que permite ao usuário gerenciar seus contatos de forma simples e eficiente. [cite_start]O programa armazena nome, telefone, e-mail e redes sociais (Twitter e Instagram) de cada contato[cite: 5]. Todos os dados são salvos em um arquivo local para que as informações não se percam ao fechar o programa.
+A Agenda Telefônica é uma aplicação de terminal (console) que permite ao usuário gerenciar seus contatos de forma simples e eficiente. O programa armazena nome, telefone, e-mail e redes sociais (Twitter e Instagram) de cada contato. Todos os dados são salvos em um arquivo local para que as informações não se percam ao fechar o programa.
 
 ### ✨ Funcionalidades
 
-* [cite_start]**Menu Interativo:** Um menu de fácil navegação para acessar todas as funcionalidades do sistema[cite: 11].
-* [cite_start]**Adicionar Contatos:** Permite a inserção de um ou mais contatos de uma só vez[cite: 19].
-* [cite_start]**Consultar Contatos:** Busca e exibe os dados de um contato específico a partir do nome[cite: 13].
-* [cite_start]**Alterar Contatos:** Modifica qualquer informação de um contato já cadastrado[cite: 17].
-* [cite_start]**Remover Contatos:** Exclui um contato da agenda a partir do nome[cite: 16].
-* [cite_start]**Listar Todos os Contatos:** Gera um relatório em formato de tabela com os dados de todos os contatos cadastrados[cite: 26].
-* [cite_start]**Persistência de Dados:** Salva a agenda em um arquivo `agenda.txt` e carrega os dados ao iniciar o programa[cite: 35].
+* [cite_start]**Menu Interativo:** Desenvolve um menu que permite ao usuário escolher entre inserir, consultar, remover ou alterar um contato[cite: 11].
+* [cite_start]**Adicionar Contatos:** Permite a inserção de dois ou mais contatos em sequência[cite: 19].
+* [cite_start]**Consultar Contatos:** Busca e exibe os dados de um contato (e-mail, telefone e redes sociais) a partir do nome[cite: 13].
+* [cite_start]**Alterar Contatos:** Modifica os dados de um contato previamente cadastrado pelo usuário[cite: 17].
+* [cite_start]**Remover Contatos:** Exclui todos os dados de um usuário a partir do nome[cite: 16].
+* [cite_start]**Listar Todos os Contatos:** Gera um relatório contendo os dados de todos os contatos que foram cadastrados[cite: 26].
+* [cite_start]**Persistência de Dados:** Possui uma função para salvar os dados de todos os contatos em um arquivo, separados por vírgula[cite: 35].
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -39,7 +39,7 @@ Este projeto foi fundamental para solidificar o conhecimento sobre a organizaç�
    - [cite_start]Implementação de funções para salvar (`'w'`) e carregar (`'r'`) os dados dos contatos em um arquivo de texto, garantindo a persistência das informações entre as execuções do programa[cite: 35].
 
 #### 4. **Interface de Linha de Comando (CLI)**
-   - Criação de um menu interativo no terminal, utilizando laços de repetição (`while`) e condicionais (`match case`) para processar a entrada do usuário e chamar as funções correspondentes.
+   - [cite_start]Criação de um menu interativo no terminal, utilizando laços de repetição (`while`) e condicionais (`match case`) para processar a entrada do usuário e chamar as funções correspondentes[cite: 11].
 
 #### 5. **Uso de Bibliotecas Externas**
    - Utilização da biblioteca `tabulate` para apresentar os relatórios de contatos de forma organizada e profissional, melhorando a experiência do usuário.
