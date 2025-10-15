@@ -1,1 +1,4 @@
-Lucas, 998119778, lucas@gmail.com, LucasFiche, lucas_fiche_
+Lucas,  998119778,  lucas@gmail.com,  LucasFiche,  lucas_fiche_
+Caio, 134134124, caio@gmail.com, caiomg, caiomg
+Pedro, 13412412123, pedro@gmail.com, pedrolvr, pedrolvr
+Catherine, 1124124314, cath@gmail.com, cath_passos, cath_passos

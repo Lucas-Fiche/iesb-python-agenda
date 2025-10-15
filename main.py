@@ -1,4 +1,5 @@
-from menu import menu, carregar_agenda
+from menu import menu
+from agenda import carregar_agenda
 
 carregar_agenda()
 menu()
