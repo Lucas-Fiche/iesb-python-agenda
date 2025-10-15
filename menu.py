@@ -29,7 +29,7 @@ def menu():
             case '2':
                 consultar()
             case '3':
-                pass
+                remover()
             case '4':
                 alterar()
             case 'q':
@@ -53,24 +53,41 @@ def inserir():
             instagram = input('Digite a conta do Instagram do contato: ')
 
             agenda[nome] = {'telefone': telefone, 'email': email, 'twitter': twitter, 'instagram': instagram}
+            
     except ValueError:
         print('ERROR: A quantidade precisa ser um número!')
 
 def consultar():
     nome_consultado = input('Digite o nome do contato que deseja buscar: ')
-    
+    encontrado = False
+
     for contato in agenda: # Nesse caso seria possível adicionar detalhes no looping e .items()
         detalhes = agenda[contato]
-        if contato == nome_consultado.lower(): 
+        
+        if contato.lower() == nome_consultado.lower(): 
             print(f"""
+            ==================================
             Dados do Contato: {contato}
             Telefone: {detalhes['telefone']}
             Email: {detalhes['email']}
             Twitter: {detalhes['twitter']}
             Instagram: {detalhes['instagram']}
+            ==================================
             """)
-        else:
-            print(f'Contato {nome_consultado} não foi encontrado!\n')
+            encontrado = True
+            break
+        
+    if not encontrado:
+        print(f'O contato {nome_consultado} não existe!\n')
+            
+def remover():
+    nome_consultado = input('Qual contato deseja remover? ')
+    
+    if nome_consultado in agenda:
+        agenda.pop(nome_consultado)
+    else:
+        print(f'O contato {nome_consultado} não existe!\n')        
+
 
 def alterar():
     nome_consultado = input('Qual contato deseja alterar? ')
@@ -93,5 +110,6 @@ def alterar():
                     detalhes['instagram'] = novo_instagram
                 case _:
                     print('Dado inexistente!\n')
-        else:
-            print('Contato inexistente!\n')
+        
+    if nome_consultado not in agenda:
+        print(f'Contato {nome_consultado} inexistente!\n')
