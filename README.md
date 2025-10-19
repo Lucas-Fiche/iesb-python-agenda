@@ -85,7 +85,7 @@ Siga os passos abaixo para rodar a Agenda Telefônica em sua máquina.
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por **[Seu Nome Completo]** para a atividade da faculdade.
+Projeto desenvolvido por **Lucas Fiche** para a atividade da faculdade.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([URL-DO-SEU-LINKEDIN])
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]([URL-DO-SEU-GITHUB])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/lucas-fiche-76aa24201)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lucas-Fiche)
